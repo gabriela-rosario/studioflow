@@ -1,78 +1,16 @@
-# studioflow
-A salon management web application designed to help beauty studios manage appointments, clients, employees, and inventory in one place.
+# React + Vite
 
-## Demo 
-Live Demo: in progress
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Screenshots
-in progress
+Currently, two official plugins are available:
 
-## Features
-- Dashboard with business overview
-- Client management
-- Appointment scheduling
-- Employee management
-- Inventory tracking
-- Responsive design
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Built With
-- HTML5
-- CSS3
-- Javascript
-- React
-- Git
-- Github
+## React Compiler
 
-## Getting Started
-Clone the repository:
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-```bash
-git clone https://github.com/yourusername/studioflow.git
-```
+## Expanding the ESLint configuration
 
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run the development server:
-
-```bash
-npm start
-```
-
-## Project Structure
-
-```
-src/
-  components/
-  pages/
-  assets/
-  styles/
-```
-
-## Future Improvements
-
-- User authentication
-- Database integration
-- Email appointment reminders
-- Analytics dashboard
-- Payment processing
-
-## About
-
-This project was created as a portfolio application to demonstrate frontend development skills through a real-world business management system inspired by salon operations.
-
-## What I Learned
-
-## Challenges 
-
-
-## Author
-
-Gabriela Rosario
-
-LinkedIn: https://www.linkedin.com/in/gabriela-rosario-rodriguez/
-
-Portfolio: https://rosariogabriela.com
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
